@@ -1,5 +1,3 @@
-const { platform } = require("os");
-
 function FirstReverse(str) {
 
     // code goes here  
@@ -14,13 +12,12 @@ function FirstReverse(str) {
 }
 
 // keep this function call here 
-console.log(FirstReverse('okay'));
+console.log(FirstReverse('TEST FIRST REVERSE'));
 
 
-function Palindrome(string){
-  const isPalindrome=  string.split('').reverse().join('')
-
-    return `${isPalindrome == string ? 'Palindrome' : false}`
+function Palindrome(string) {
+    const isPalindrome = string.split('').reverse().join('')
+    return `${isPalindrome == string && isPalindrome.length ? 'Palindrome' : false}`
 }
 
-console.log(Palindrome('NAONOAN'));
+// console.log(Palindrome('PalindromeemordnilaP'));
