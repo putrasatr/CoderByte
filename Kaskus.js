@@ -1,7 +1,8 @@
+'use strict';
 function deretKaskus(n) {
-    var arr = []
-    for (i = 1; i <= n; i++) {
-        var hasil = i * 3
+    let arr = []
+    for (let i = 1; i <= n; i++) {
+        let hasil = i * 3
         if (hasil % 5 === 0 && hasil % 6 === 0) arr.push('KASKUS')
         if (hasil % 5 === 0) arr.push('KAS')
         if (hasil % 6 === 0) arr.push('KUS')
@@ -11,5 +12,4 @@ function deretKaskus(n) {
 }
 
 console.log(deretKaskus(10))
-// console.log(deretKaskus(100))
-// console.log(deretKaskus(1))
+console.log(deretKaskus(100))
