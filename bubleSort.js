@@ -1,14 +1,20 @@
-let unsortedArr = [4,6,1,2,3,5]
-let unsortedArr2 = [82,3,13,4,55,24,345]
+let unsortedArr = [4, 6, 1, 2, 3, 5]
+let unsortedArr2 = [82, 3, 13, 4, 55, 24, 345]
 
 
 let bubbleSort = (inputArr) => {
-    inputArr.map(()=>{
-        for (let i = 0; i < inputArr.length; i++) {
-            if (inputArr[i] > inputArr[i + 1]) {
+    inputArr.map(() => {
+        for (
+            let i = 0,
+            j = 1;
+            i < inputArr.length;
+            i++,
+            j++
+        ) {
+            if (inputArr[i] > inputArr[j]) {
                 let tmp = inputArr[i];
-                inputArr[i] = inputArr[i + 1];
-                inputArr[i + 1] = tmp;
+                inputArr[i] = inputArr[j];
+                inputArr[j] = tmp;
             }
         }
     })
