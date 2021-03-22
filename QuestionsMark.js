@@ -1,12 +1,12 @@
 function QuestionsMarks(str) {
 
     // code goes here  
-    let isTrue = false
     const notLetter = str.match(/[^a-z A-Z]/g)
+    let isTrue = false
     let Num = 0
     let Qmark = ''
-    
-    notLetter == null ? false : notLetter.map((a,b) => {
+
+    notLetter == null ? false : notLetter.map((a) => {
         if (Num === 10 && Qmark.length < 3) Num = 0, Qmark = ''
         if (Num === 10 && Qmark.length == 3) Num = 0, isTrue = true, Qmark = ''
         if (Number(a)) Num += Number(a)

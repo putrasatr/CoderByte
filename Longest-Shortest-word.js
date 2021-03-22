@@ -4,14 +4,14 @@ function LongestAndShortestword(str) {
    const longest = array.sort((a, b) => b.length - a.length)
    
    const result = {
-      Longest: longest.length == 0 ? 'Tidak Ada Hasil' : longest[0],
-      Shortest: longest.length == 0 ? 'Tidak Ada Hasil' : longest[longest.length - 1]
+      Longest: longest.length == 0 ? 'No Result' : longest[0],
+      Shortest: longest.length == 0 ? 'No Result' : longest[longest.length - 1]
    }
    return result
 }
 console.log(LongestAndShortestword('fly in The sky   '))
-console.log(LongestAndShortestword('! kao'))
 console.log(LongestAndShortestword('!@#not$ fo#$231und'))
+console.log(LongestAndShortestword('!@#not$'))
 console.log(LongestAndShortestword(`Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 4 threads
