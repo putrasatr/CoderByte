@@ -1,4 +1,4 @@
-const { mesinHitung } = require('./Batch24/Challenge/Challenge17/challenge17')
+const { mesinHitung } = require('../Challenge/Challenge17/challenge17')
 let mh = new mesinHitung
 
 
@@ -18,7 +18,7 @@ loopWithoutFor('[javascriptz ')
 
 
 function Calculator(n) {
-    let d = /(\d)/g
+    let d = /(\d)ss/g
     let D = /\D/g
 
     console.log(Number(n.match(d)))

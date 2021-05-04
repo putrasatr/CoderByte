@@ -14,7 +14,6 @@ console.log(bubbleSort(unsortedArr)) // return [ 1, 2, 3, 4, 5, 6 ]
 console.log(bubbleSort(unsortedArr2)) // return ['-22', '-1', 0, 1, 2, 3, 3, 4, 4, 5, 6, 13, 24, 55, 82, 345]
 
 
-//-----------Array method sort------------
-// unsortedArr2.sort((a, b) => a - b);
-// unsortedArr.sort((a, b) => a - b);
-// console.log(unsortedArr,unsortedArr2)
+unsortedArr2.sort((a, b) => a - b);
+unsortedArr.sort((a, b) => a - b);
+console.log(unsortedArr,unsortedArr2)
