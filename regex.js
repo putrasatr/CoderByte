@@ -1,7 +1,3 @@
-const { mesinHitung } = require('../Challenge/Challenge17/challenge17')
-let mh = new mesinHitung
-
-
 function loopWithoutFor(s) {
     let letter = s.match(/[a-z]/g).join('')
     let a = letter.match(/[aiueo]/g).join('')

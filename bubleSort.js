@@ -1,6 +1,6 @@
 let unsortedArr = [4, 6, 1, 2, 3, 5]
 let unsortedArr2 = [82, 3, 13, 4, 55, 24, 0, 345, 4, 6, 1, 2, 3, 5, -1, -22]
-let bubbleSort = (arr: any) => {
+let bubbleSort = (arr) => {
     arr.map(() => {
         for (let i = arr.length; i >= 0; i--) {
             let j = i - 1;
