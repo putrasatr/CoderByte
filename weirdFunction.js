@@ -6,7 +6,7 @@ const isLoggedIn =  () => {
 setInterval(() => {
 (function (v, validator, callback) {
     console.log(v)
-    if (!validator()) return console.table('WARN: Your session is up.')
+    if (!validator()) return console.table('WARN: Your session is up. Please login again.' )
     callback('Number')
 }('string', isLoggedIn, (res) => {
     console.log(res)
