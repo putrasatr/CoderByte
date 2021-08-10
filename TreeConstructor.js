@@ -86,4 +86,4 @@ function TreeConstructor(strArr) {
 }
    
 // keep this function call here 
-console.log(TreeConstructor(readline()));
+console.log(TreeConstructor(12));
