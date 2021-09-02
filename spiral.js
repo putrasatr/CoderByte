@@ -11,7 +11,6 @@ function spiral(param) {
         } else
             arr[j].push(i)
     }
-    console.log(arr)
     counterRow = param - 1;
     counterCol = 0
     while (counterRow) {
@@ -43,5 +42,5 @@ function spiral(param) {
 }
 
 spiral(4)
-spiral(5)
-spiral(100)
+// spiral(5)
+// spiral(100)
